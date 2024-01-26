@@ -10,13 +10,21 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
         title: "Shopping",
         home: Scaffold(
           appBar:AppBar(
-            title:const Text("E L E G E N T"),
-            backgroundColor: Colors.brown,
-            
+            title:const Text("E L E G E N T", textAlign: TextAlign.center, 
+                        style: TextStyle(fontSize: 25, 
+                        fontWeight: FontWeight.w500, 
+                          ),
+                        ),
+                      backgroundColor: Colors.brown,
+             actions: [
+                IconButton(onPressed: (){},icon: const Icon(Icons.menu))
+          ],
           ),
+
          //body:const Icon(Icons.add),
          //Image.asset("assest/WELCOME.png"),
           body: Column(
@@ -50,11 +58,14 @@ class MyApp extends StatelessWidget {
                     ),
 
                     child: Center(
-                        child: Text("HELLO", textAlign: TextAlign.center,
+                        child: Text("Neckless", 
+                        textAlign: TextAlign.center, 
+                        style: TextStyle(fontSize: 20, fontWeight: FontWeight.w500, // Change the font size here as desired
+                          ),
                         ),
                        ),
                     ),
-
+                  
                     Container(
                     width: 160, height: 150,
                     decoration: BoxDecoration(
