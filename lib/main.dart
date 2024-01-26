@@ -19,21 +19,90 @@ class MyApp extends StatelessWidget {
           ),
          //body:const Icon(Icons.add),
          //Image.asset("assest/WELCOME.png"),
-          body: Center(
-          child: Container(
-            height: 150,
-            width: 400,
-            decoration: BoxDecoration(
-              borderRadius: BorderRadius.circular(50),
-              color: Colors.brown, // Optional: Set container background color
-            ),
+          body: Column(
+
+           mainAxisAlignment: MainAxisAlignment.spaceBetween,
+            children: [
+              Container(
+                height: 215,
+                width: double.infinity,
+                child: Image(   
+                   image: AssetImage("assest/WELCOME.png"),  //how to add a image
+                   fit: BoxFit.cover, 
+                 ),
+              ),
+
+             /* Container(
+                height: 100,
+                width: double.infinity,  // how to add a colour raw
+                decoration: BoxDecoration(
+                  color: Colors.brown,
+                ),
+              ),*/
+
+              Row(
+                mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                children: [
+                  Container(
+                    width: 160, height: 150,
+                    decoration: BoxDecoration(
+                      color: Colors.brown.shade50, borderRadius:BorderRadius.circular(30)
+                    ),
+
+                    child: Center(
+                        child: Text("HELLO", textAlign: TextAlign.center,
+                        ),
+                       ),
+                    ),
+
+                    Container(
+                    width: 160, height: 150,
+                    decoration: BoxDecoration(
+                      color: Colors.brown.shade100, borderRadius:BorderRadius.circular(30)
+                    ),
+                    ),
+                ],
+              ),
+
+              Row(
+                mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                children: [
+                  Container(
+                    width: 160, height: 150,
+                    decoration: BoxDecoration(
+                      color: Colors.brown.shade200, borderRadius:BorderRadius.circular(30)
+                    ),
+                    ),
+
+                    Container(
+                    width: 160, height: 150,
+                    decoration: BoxDecoration(
+                      color: Colors.brown.shade300, borderRadius:BorderRadius.circular(30)
+                    ),
+                    ),
+                ],
+              ),
+
+              Row(
+                mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                children: [
+                  Container(
+                    width: 160, height: 150,
+                    decoration: BoxDecoration(
+                      color: Colors.brown.shade400, borderRadius:BorderRadius.circular(30)
+                    ),
+                    ),
+
+                    Container(
+                    width: 160, height: 150,
+                    decoration: BoxDecoration(
+                      color: Colors.brown.shade500, borderRadius:BorderRadius.circular(30)
+                    ),
+                    ),
+                ],
+              ),
+            ],
           ),
-          ),
-          child: Container(Image.asset(
-              "assest/WELCOME.png", // Replace with your actual image path
-              height: 150,
-              width: 400,),
-            ),
         ),
     );
   }
