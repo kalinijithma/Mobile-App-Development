@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:elegent/Earrings.dart';
 
-void main(){
-  runApp( const MyApp());
+void main() {
+  runApp(const MyApp());
 }
 
 class MyApp extends StatelessWidget {
@@ -11,134 +12,177 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-        title: "Shopping",
-        home: Scaffold(
-          appBar:AppBar(
-            title:const Text("E L E G E N T", textAlign: TextAlign.center, 
-                        style: TextStyle(fontSize: 25, 
-                        fontWeight: FontWeight.w500, 
-                          ),
-                        ),
-                      backgroundColor: Colors.brown,
-             actions: [
-                IconButton(onPressed: (){}, icon: const Icon(Icons.shopping_cart_checkout)),
-                IconButton(onPressed: (){},icon: const Icon(Icons.menu),)  
+      title: "E L E G E N T",
+      home: Scaffold(
+        appBar: AppBar(
+          title: const Text(
+            "E L E G E N T",
+            textAlign: TextAlign.center,
+            style: TextStyle(
+              fontSize: 25,
+              fontWeight: FontWeight.w500,
+            ),
+          ),
+          backgroundColor: Colors.brown,
+          actions: [
+            IconButton(
+                onPressed: () {},
+                icon: const Icon(Icons.shopping_cart_checkout)),
+            IconButton(
+              onPressed: () {},
+              icon: const Icon(Icons.menu),
+            )
           ],
-          ),
-
-         //body:const Icon(Icons.add),
-         //Image.asset("assest/WELCOME.png"),
-          body: SingleChildScrollView(
-  child: Column(
-    mainAxisAlignment: MainAxisAlignment.spaceBetween,
-    children: [
-      Container(
-        height: 215,
-        width: double.infinity,
-        child: Image(   
-          image: AssetImage("assest/WELCOME.png"),
-          fit: BoxFit.cover, 
         ),
-      ),
 
-      /* Container(
-        height: 100,
-        width: double.infinity,
-        decoration: BoxDecoration(
-          color: Colors.brown,
-        ),
-      ), */
-
-      
-      Row(
-        mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-        children: [
-          Container(
-            width: 160, height: 150,
-            decoration: BoxDecoration(
-              color: Colors.brown.shade50, borderRadius:BorderRadius.circular(30)
-            ),
-            child: Center(
-              child: Text(
-                "Neckless", 
-                textAlign: TextAlign.center, 
-                style: TextStyle(
-                  fontSize: 20, 
-                  fontWeight: FontWeight.w500,
+        //body:const Icon(Icons.add),
+        //Image.asset("assest/WELCOME.png"),
+        body: SingleChildScrollView(
+          child: Column(
+              mainAxisAlignment: MainAxisAlignment.spaceAround,
+              children: [
+                Container(
+                  height: 215,
+                  width: double.infinity,
+                  child: const Image(
+                    image: AssetImage("assest/WELCOME.png"),
+                    fit: BoxFit.cover,
+                  ),
                 ),
-              ),
-            ),
-          ),
-          
-          Container(
-            width: 160, height: 150,
-            decoration: BoxDecoration(
-              color: Colors.brown.shade100, borderRadius:BorderRadius.circular(30)
-            ),
-          ),
-        ],
+
+                SizedBox(height: 20),
+
+                Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                  children: [
+                   FloatingActionButton(
+        onPressed: () {
+          Navigator.push(
+            context,
+            MaterialPageRoute(builder: (context) => Earrings()), //
+          );
+        },
+        
+        child: Icon(Icons.arrow_forward),
+        
       ),
+                    ElevatedButton(
+                        onPressed: () {},
+                        child: Text('Rings',
+                         textAlign: TextAlign.center, 
+                          style: TextStyle(
+                            fontSize: 20, 
+                            fontWeight: FontWeight.w500,
+                            color: Colors.black,
+                          ),),
+                        style: ElevatedButton.styleFrom(
+                            primary: Colors.brown[100],
+                            minimumSize: Size(170, 130))),
+                  ],
+                ),
 
-      Row(
-        mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-        children: [
-          Container(
-            width: 160, height: 150,
-            decoration: BoxDecoration(
-              color: Colors.brown.shade200, borderRadius:BorderRadius.circular(30)
-            ),
-          ),
+                SizedBox(height: 20),
 
-          Container(
-            width: 160, height: 150,
-            decoration: BoxDecoration(
-              color: Colors.brown.shade300, borderRadius:BorderRadius.circular(30)
-            ),
-          ),
-        ],
-      ),
+                Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                  children: [
+                    ElevatedButton(
+                        onPressed: () {
+                           Navigator.push(context, MaterialPageRoute(builder:(context) => Earrings(),));
 
-      Row(
-        mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-        children: [
-          Container(
-            width: 160, height: 150,
-            decoration: BoxDecoration(
-              color: Colors.brown.shade400, borderRadius:BorderRadius.circular(30)
-            ),
-          ),
+                         },
+                        child: Text('Earrings',
+                         textAlign: TextAlign.center, 
+                          style: TextStyle(
+                            fontSize: 20, 
+                            fontWeight: FontWeight.w500,
+                            color: Colors.black,
+                          ),),
+                        style: ElevatedButton.styleFrom(
+                            primary: Colors.brown[200],
+                            minimumSize: Size(170, 130))),
+                    ElevatedButton(
+                        onPressed: () {},
+                        child: Text('Hair Clips',
+                         textAlign: TextAlign.center, 
+                          style: TextStyle(
+                            fontSize: 20, 
+                            fontWeight: FontWeight.w500,
+                            color: Colors.black,
+                          ),),
+                        style: ElevatedButton.styleFrom(
+                            primary: Colors.brown[300],
+                            minimumSize: Size(170, 130))),
+                  ],
+                ),
 
-          Container(
-            width: 160, height: 150,
-            decoration: BoxDecoration(
-              color: Colors.brown.shade500, borderRadius:BorderRadius.circular(30)
-            ),
-          ),
-        ],
-      ),
+                SizedBox(height: 20),
 
-      Row(
-        mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-        children: [
-          Container(
-            width: 160, height: 150,
-            decoration: BoxDecoration(
-              color: Colors.brown.shade600, borderRadius:BorderRadius.circular(30)
-            ),
-          ),
+                Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                  children: [
+                    ElevatedButton(
+                        onPressed: () {},
+                        child: Text('Key tags',
+                         textAlign: TextAlign.center, 
+                          style: TextStyle(
+                            fontSize: 20, 
+                            fontWeight: FontWeight.w500,
+                            color: Colors.black,
+                          ),),
+                        style: ElevatedButton.styleFrom(
+                            primary: Colors.brown[400],
+                            minimumSize: Size(170, 130))),
+                    ElevatedButton(
+                        onPressed: () {},
+                        child: Text('Sunglassess', 
+                        textAlign: TextAlign.center, 
+                          style: TextStyle(
+                            fontSize: 20, 
+                            fontWeight: FontWeight.w500,
+                            color: Colors.black,
+                          ),),
+                        style: ElevatedButton.styleFrom(
+                            primary: Colors.brown[500],
+                            minimumSize: Size(170, 130))),
+                  ],
+                ),
 
-          Container(
-            width: 160, height: 150,
-            decoration: BoxDecoration(
-              color: Colors.brown.shade700, borderRadius:BorderRadius.circular(30)
-            ),
-          ),
-        ],
-      ),
-    ],
-  ),
-)
+                SizedBox(height: 20),
+                
+                Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                  children: [
+                    ElevatedButton(
+                        onPressed: () {},
+                        child: Text('Bracelets', 
+                        textAlign: TextAlign.center, 
+                          style: TextStyle(
+                            fontSize: 20, 
+                            fontWeight: FontWeight.w500,
+                            color: Colors.black,
+                          ),),
+                        style: ElevatedButton.styleFrom(
+                            primary: Colors.brown[600],
+                            minimumSize: Size(170, 130))),
+                    ElevatedButton(
+                        onPressed: () {},
+                        child: Text('Soap Sheets',
+                        textAlign: TextAlign.center, 
+                          style: TextStyle(
+                            fontSize: 20, 
+                            fontWeight: FontWeight.w500,
+                            color: Colors.black,
+                          ),
+                          ),
+                        style: ElevatedButton.styleFrom(
+                            primary: Colors.brown[700],
+                            minimumSize: Size(170, 130))),
+                  ],
+                )
+              ]),
         ),
+      ),
     );
   }
 }
