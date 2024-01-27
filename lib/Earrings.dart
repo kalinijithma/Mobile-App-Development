@@ -2,8 +2,13 @@ import 'package:flutter/material.dart';
 import 'package:elegent/main.dart';
 
 class Earrings extends StatelessWidget{
-  
+  const Earrings({super.key});
 
+  @override
+  State<Earrings> createState()=>_EarringsState();
+}
+
+class _EarringsState extends State<Earrings> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(

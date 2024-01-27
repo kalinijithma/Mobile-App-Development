@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:elegent/Earrings.dart';
+import 'package:elegent/Home.dart';
 
 void main() {
   runApp(const MyApp());
