@@ -109,7 +109,7 @@ class _EarringsState extends State<Earrings> {
                       mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                       children: [
                         Image(
-                          image: AssetImage("assest/earring1.png"),
+                          image: AssetImage("assest/earring2.png"),
                           alignment: Alignment.topLeft,
                           height: 250,
                           width: 300,
@@ -155,7 +155,7 @@ class _EarringsState extends State<Earrings> {
                       mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                       children: [
                         Image(
-                          image: AssetImage("assest/earring1.png"),
+                          image: AssetImage("assest/earring3.png"),
                           alignment: Alignment.topLeft,
                           height: 250,
                           width: 300,
@@ -201,8 +201,8 @@ class _EarringsState extends State<Earrings> {
                       mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                       children: [
                         Image(
-                          image: AssetImage("assest/earring1.png"),
-                          alignment: Alignment.topLeft,
+                          image: AssetImage("assest/earring4.png"),
+                          alignment: Alignment.center,
                           height: 250,
                           width: 300,
                         ),
