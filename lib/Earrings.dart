@@ -51,8 +51,8 @@ class _EarringsState extends State<Earrings> {
                     ),
                     child: Image(
                       image: AssetImage(
-                          "assest/Earring1.png"), // Replace "your_image.png" with your image path
-                      fit: BoxFit.contain, // Adjust fit as needed
+                          "assest/Earring1.png"), 
+                      fit: BoxFit.contain, 
                     ),
                   ),
                   Container(
@@ -63,24 +63,6 @@ class _EarringsState extends State<Earrings> {
                       color: Colors.brown.shade50,
                       borderRadius: BorderRadius.circular(30),
                     ),
-                    child: const Center(
-                      child: Text(
-                        "Keytag",
-                        textAlign: TextAlign.center,
-                        style: TextStyle(
-                          fontSize: 20,
-                          fontWeight: FontWeight.w500,
-                        ),
-                      ),
-                    ),
-                  ),
-                  Container(
-                    margin: const EdgeInsets.symmetric(vertical: 10),
-                    width: 160,
-                    height: 150,
-                    decoration: BoxDecoration(
-                        color: Colors.brown.shade50,
-                        borderRadius: BorderRadius.circular(30)),
                     child: const Center(
                       child: Text(
                         "Keytag",
