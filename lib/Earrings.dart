@@ -56,7 +56,7 @@ class _EarringsState extends State<Earrings> {
                       primary: Colors.yellow[100],
                       minimumSize: Size(390, 250),
                       shape: RoundedRectangleBorder(
-                        borderRadius: BorderRadius.circular(0),
+                        borderRadius: BorderRadius.circular(60),
                       ),
                     ),
                     child: Column(
@@ -102,7 +102,7 @@ class _EarringsState extends State<Earrings> {
                       primary: Colors.yellow[100],
                       minimumSize: Size(390, 250),
                       shape: RoundedRectangleBorder(
-                        borderRadius: BorderRadius.circular(0),
+                        borderRadius: BorderRadius.circular(60),
                       ),
                     ),
                     child: Column(
@@ -148,7 +148,7 @@ class _EarringsState extends State<Earrings> {
                       primary: Colors.yellow[100],
                       minimumSize: Size(390, 250),
                       shape: RoundedRectangleBorder(
-                        borderRadius: BorderRadius.circular(0),
+                        borderRadius: BorderRadius.circular(60),
                       ),
                     ),
                     child: Column(
@@ -194,7 +194,7 @@ class _EarringsState extends State<Earrings> {
                       primary: Colors.yellow[100],
                       minimumSize: Size(390, 250),
                       shape: RoundedRectangleBorder(
-                        borderRadius: BorderRadius.circular(0),
+                        borderRadius: BorderRadius.circular(60),
                       ),
                     ),
                     child: Column(
