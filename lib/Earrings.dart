@@ -43,7 +43,7 @@ class _EarringsState extends State<Earrings> {
                   height: 215,
                   width: double.infinity,
                   child: const Image(   
-                    image: AssetImage("assest/earring.png"),
+                    image: AssetImage("assest/abc.png"),
                     fit: BoxFit.cover, 
                   ),
                 ),
