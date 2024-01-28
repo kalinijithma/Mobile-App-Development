@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:elegent/main.dart';
 
-class Earrings extends StatefulWidget{
+class Earrings extends StatefulWidget {
   const Earrings({super.key});
 
   @override
-  State<Earrings> createState()=>_EarringsState();
+  State<Earrings> createState() => _EarringsState();
 }
 
 class _EarringsState extends State<Earrings> {
@@ -36,123 +36,126 @@ class _EarringsState extends State<Earrings> {
         //body:const Icon(Icons.add),
         //Image.asset("assest/WELCOME.png"),
         body: SingleChildScrollView(
-            child: Column(
-              mainAxisAlignment: MainAxisAlignment.spaceBetween,
-              children: [
-                Container(
-                  height: 215,
-                  width: double.infinity,
-                  child: const Image(   
-                    image: AssetImage("assest/WELCOME.png"),
-                    fit: BoxFit.cover, 
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.spaceBetween,
+            children: [
+              Row(
+                mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                children: [
+                  Container(
+                    width: 160,
+                    height: 150,
+                    decoration: BoxDecoration(
+                      color: Colors.blue.shade50, // Adjust color as needed
+                      borderRadius: BorderRadius.circular(30),
+                    ),
+                    child: Image(
+                      image: AssetImage(
+                          "assest/Earring1.png"), // Replace "your_image.png" with your image path
+                      fit: BoxFit.contain, // Adjust fit as needed
+                    ),
                   ),
-                ),
-
-                /* Container(
-                  height: 100,
-                  width: double.infinity,
-                  decoration: BoxDecoration(
-                    color: Colors.brown,
-                  ),
-                ), */
-
-                
-                Row(
-                  mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                  children: [
-                    Container(
-                      margin: const EdgeInsets.symmetric(vertical: 10),
-                      width: 160, height: 150,
-                      decoration: BoxDecoration(
-                        color: Colors.brown.shade50, borderRadius:BorderRadius.circular(30)
-                      ),
-                      child: const Center(
-                        child: Text(
-                          " ", 
-                          textAlign: TextAlign.center, 
-                          style: TextStyle(
-                            fontSize: 20, 
-                            fontWeight: FontWeight.w500,
-                          ),
+                  Container(
+                    margin: const EdgeInsets.symmetric(vertical: 10),
+                    width: 160,
+                    height: 150,
+                    decoration: BoxDecoration(
+                      color: Colors.brown.shade50,
+                      borderRadius: BorderRadius.circular(30),
+                    ),
+                    child: const Center(
+                      child: Text(
+                        "Keytag",
+                        textAlign: TextAlign.center,
+                        style: TextStyle(
+                          fontSize: 20,
+                          fontWeight: FontWeight.w500,
                         ),
                       ),
                     ),
-                    
-                    Container(
-                      width: 160, height: 150,
-                      decoration: BoxDecoration(
-                        color: Colors.brown.shade100, borderRadius:BorderRadius.circular(30)
+                  ),
+                  Container(
+                    margin: const EdgeInsets.symmetric(vertical: 10),
+                    width: 160,
+                    height: 150,
+                    decoration: BoxDecoration(
+                        color: Colors.brown.shade50,
+                        borderRadius: BorderRadius.circular(30)),
+                    child: const Center(
+                      child: Text(
+                        "Keytag",
+                        textAlign: TextAlign.center,
+                        style: TextStyle(
+                          fontSize: 20,
+                          fontWeight: FontWeight.w500,
+                        ),
                       ),
                     ),
-                  ],
-                ),
-
-                Row(
-                  
-                  mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                  children: [
-                    
-                    Container(
-                      margin: EdgeInsets.symmetric(vertical: 10),
-                      width: 160, height: 150,
-                      decoration: BoxDecoration(
-                        color: Colors.brown.shade200, borderRadius:BorderRadius.circular(30)
-                      ),
-                    ),
-
-                    Container(
-                      width: 160, height: 150,
-                      decoration: BoxDecoration(
-                        color: Colors.brown.shade300, borderRadius:BorderRadius.circular(30)
-                      ),
-                    ),
-                  ],
-                ),
-
-                Row(
-                  mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                  children: [
-                    Container(
-                      margin: EdgeInsets.symmetric(vertical: 10),
-                      width: 160, height: 150,
-                      decoration: BoxDecoration(
-                        color: Colors.brown.shade400, borderRadius:BorderRadius.circular(30)
-                      ),
-                    ),
-
-                    Container(
-                      width: 160, height: 150,
-                      decoration: BoxDecoration(
-                        color: Colors.brown.shade500, borderRadius:BorderRadius.circular(30)
-                      ),
-                    ),
-                  ],
-                ),
-
-                Row(
-                  mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                  children: [
-                    Container(
-                      margin: EdgeInsets.symmetric(vertical: 10),
-                      width: 160, height: 150,
-                      decoration: BoxDecoration(
-                        color: Colors.brown.shade600, borderRadius:BorderRadius.circular(30)
-                      ),
-                    ),
-
-                    Container(
-                      width: 160, height: 150,
-                      decoration: BoxDecoration(
-                        color: Colors.brown.shade700, borderRadius:BorderRadius.circular(30)
-                      ),
-                    ),
-                  ],
-                ),
-              ],
-            ),
-          )
-      );
-    
+                  ),
+                ],
+              ),
+              Row(
+                mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                children: [
+                  Container(
+                    margin: EdgeInsets.symmetric(vertical: 10),
+                    width: 160,
+                    height: 150,
+                    decoration: BoxDecoration(
+                        color: Colors.brown.shade200,
+                        borderRadius: BorderRadius.circular(30)),
+                  ),
+                  Container(
+                    width: 160,
+                    height: 150,
+                    decoration: BoxDecoration(
+                        color: Colors.brown.shade300,
+                        borderRadius: BorderRadius.circular(30)),
+                  ),
+                ],
+              ),
+              Row(
+                mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                children: [
+                  Container(
+                    margin: EdgeInsets.symmetric(vertical: 10),
+                    width: 160,
+                    height: 150,
+                    decoration: BoxDecoration(
+                        color: Colors.brown.shade400,
+                        borderRadius: BorderRadius.circular(30)),
+                  ),
+                  Container(
+                    width: 160,
+                    height: 150,
+                    decoration: BoxDecoration(
+                        color: Colors.brown.shade500,
+                        borderRadius: BorderRadius.circular(30)),
+                  ),
+                ],
+              ),
+              Row(
+                mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                children: [
+                  Container(
+                    margin: EdgeInsets.symmetric(vertical: 10),
+                    width: 160,
+                    height: 150,
+                    decoration: BoxDecoration(
+                        color: Colors.brown.shade600,
+                        borderRadius: BorderRadius.circular(30)),
+                  ),
+                  Container(
+                    width: 160,
+                    height: 150,
+                    decoration: BoxDecoration(
+                        color: Colors.brown.shade700,
+                        borderRadius: BorderRadius.circular(30)),
+                  ),
+                ],
+              ),
+            ],
+          ),
+        ));
   }
-
 }
