@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:elegent/main.dart';
 
-class Earrings extends StatelessWidget{
+class Earrings extends StatefulWidget{
   const Earrings({super.key});
 
   @override
@@ -43,7 +43,7 @@ class _EarringsState extends State<Earrings> {
                   height: 215,
                   width: double.infinity,
                   child: const Image(   
-                    image: AssetImage("assest/WELCOME.png"),
+                    image: AssetImage("assest/ELEGENT LOGO.png"),
                     fit: BoxFit.cover, 
                   ),
                 ),
@@ -68,7 +68,7 @@ class _EarringsState extends State<Earrings> {
                       ),
                       child: const Center(
                         child: Text(
-                          "Keytag", 
+                          " ", 
                           textAlign: TextAlign.center, 
                           style: TextStyle(
                             fontSize: 20, 
