@@ -39,6 +39,7 @@ class HomePage extends State<Home> {
         //body:const Icon(Icons.add),
         //Image.asset("assest/WELCOME.png"),
         body: SingleChildScrollView(
+          
           child: Column(
               mainAxisAlignment: MainAxisAlignment.spaceAround,
               children: [
