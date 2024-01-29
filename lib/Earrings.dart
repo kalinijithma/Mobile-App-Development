@@ -53,7 +53,7 @@ class _EarringsState extends State<Earrings> {
                       // );
                     },
                     style: ElevatedButton.styleFrom(
-                      primary: Colors.yellow[100],
+                      primary: Colors.yellow[200],
                       minimumSize: Size(390, 250),
                       shape: RoundedRectangleBorder(
                         borderRadius: BorderRadius.circular(60),
@@ -99,7 +99,7 @@ class _EarringsState extends State<Earrings> {
                       // );
                     },
                     style: ElevatedButton.styleFrom(
-                      primary: Colors.yellow[100],
+                      primary: Colors.green[100],
                       minimumSize: Size(390, 250),
                       shape: RoundedRectangleBorder(
                         borderRadius: BorderRadius.circular(60),
@@ -145,7 +145,7 @@ class _EarringsState extends State<Earrings> {
                       // );
                     },
                     style: ElevatedButton.styleFrom(
-                      primary: Colors.yellow[100],
+                      primary: Colors.blue[100],
                       minimumSize: Size(390, 250),
                       shape: RoundedRectangleBorder(
                         borderRadius: BorderRadius.circular(60),
@@ -191,7 +191,7 @@ class _EarringsState extends State<Earrings> {
                       // );
                     },
                     style: ElevatedButton.styleFrom(
-                      primary: Colors.yellow[100],
+                      primary: Colors.purple[100],
                       minimumSize: Size(390, 250),
                       shape: RoundedRectangleBorder(
                         borderRadius: BorderRadius.circular(60),
@@ -237,7 +237,7 @@ class _EarringsState extends State<Earrings> {
                       // );
                     },
                     style: ElevatedButton.styleFrom(
-                      primary: Colors.yellow[100],
+                      primary: Colors.pink[100],
                       minimumSize: Size(390, 250),
                       shape: RoundedRectangleBorder(
                         borderRadius: BorderRadius.circular(60),

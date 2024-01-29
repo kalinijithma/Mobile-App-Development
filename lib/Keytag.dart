@@ -63,14 +63,14 @@ class _KeytagState extends State<Keytag> {
                       mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                       children: [
                         Image(
-                          image: AssetImage("assest/earring1.png"),
+                          image: AssetImage("assest/keytag1.jpg"),
                           alignment: Alignment.topLeft,
                           height: 250,
                           width: 300,
                         ),
                         SizedBox(height: 10),
                         Text(
-                          '5 colour Butterfly Earring set LKR.750',
+                          'Cute unicorn key tags LKR 400',
                           textAlign: TextAlign.right,
                           style: TextStyle(
                             fontSize: 20,
@@ -99,7 +99,7 @@ class _KeytagState extends State<Keytag> {
                       // );
                     },
                     style: ElevatedButton.styleFrom(
-                      primary: Colors.yellow[100],
+                      primary: Colors.blue[100],
                       minimumSize: Size(390, 250),
                       shape: RoundedRectangleBorder(
                         borderRadius: BorderRadius.circular(60),
@@ -109,14 +109,14 @@ class _KeytagState extends State<Keytag> {
                       mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                       children: [
                         Image(
-                          image: AssetImage("assest/earring2.png"),
+                          image: AssetImage("assest/keytag2.jpg"),
                           alignment: Alignment.topLeft,
                           height: 250,
                           width: 300,
                         ),
                         SizedBox(height: 10),
                         Text(
-                          '5 colour Butterfly Earring set LKR.750',
+                          'Cute unicorn key tags LKR 400',
                           textAlign: TextAlign.right,
                           style: TextStyle(
                             fontSize: 20,
@@ -145,7 +145,7 @@ class _KeytagState extends State<Keytag> {
                       // );
                     },
                     style: ElevatedButton.styleFrom(
-                      primary: Colors.yellow[100],
+                      primary: Colors.pink[100],
                       minimumSize: Size(390, 250),
                       shape: RoundedRectangleBorder(
                         borderRadius: BorderRadius.circular(60),
@@ -155,14 +155,14 @@ class _KeytagState extends State<Keytag> {
                       mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                       children: [
                         Image(
-                          image: AssetImage("assest/earring3.png"),
+                          image: AssetImage("assest/keytag3.jpg"),
                           alignment: Alignment.topLeft,
                           height: 250,
                           width: 300,
                         ),
                         SizedBox(height: 10),
                         Text(
-                          '5 colour Butterfly Earring set LKR.750',
+                          'Cute unicorn key tags LKR 400',
                           textAlign: TextAlign.right,
                           style: TextStyle(
                             fontSize: 20,
@@ -191,7 +191,7 @@ class _KeytagState extends State<Keytag> {
                       // );
                     },
                     style: ElevatedButton.styleFrom(
-                      primary: Colors.yellow[100],
+                      primary: Colors.pink[200],
                       minimumSize: Size(390, 250),
                       shape: RoundedRectangleBorder(
                         borderRadius: BorderRadius.circular(60),
@@ -201,14 +201,14 @@ class _KeytagState extends State<Keytag> {
                       mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                       children: [
                         Image(
-                          image: AssetImage("assest/earring4.png"),
+                          image: AssetImage("assest/Keytag4.jpg"),
                           alignment: Alignment.center,
                           height: 250,
                           width: 300,
                         ),
                         SizedBox(height: 10),
                         Text(
-                          '5 colour Butterfly Earring set LKR.750',
+                          'Cute unicorn key tags LKR 400',
                           textAlign: TextAlign.right,
                           style: TextStyle(
                             fontSize: 20,
