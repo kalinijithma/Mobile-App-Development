@@ -221,6 +221,52 @@ class _EarringsState extends State<Earrings> {
                   ),
                 ],
               ),
+
+              SizedBox(height: 20),
+              
+               // Adding space between rows
+              Row(
+                mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                children: [
+                  ElevatedButton(
+                    onPressed: () {
+                      // String itemName = 'Neckless'; // Data you want to pass
+                      // Navigator.push(
+                      //   context,
+                      //   MaterialPageRoute(builder: (context) => NextPage(itemName)),
+                      // );
+                    },
+                    style: ElevatedButton.styleFrom(
+                      primary: Colors.yellow[100],
+                      minimumSize: Size(390, 250),
+                      shape: RoundedRectangleBorder(
+                        borderRadius: BorderRadius.circular(60),
+                      ),
+                    ),
+                    child: Column(
+                      mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                      children: [
+                        Image(
+                          image: AssetImage("assest/earring5.png"),
+                          alignment: Alignment.center,
+                          height: 250,
+                          width: 300,
+                        ),
+                        SizedBox(height: 10),
+                        Text(
+                          '5 colour Butterfly Earring set LKR.750',
+                          textAlign: TextAlign.right,
+                          style: TextStyle(
+                            fontSize: 20,
+                            fontWeight: FontWeight.w500,
+                            color: Colors.black,
+                          ),
+                        ),
+                      ],
+                    ),
+                  ),
+                ],
+              ),
             ],
           ),
         ));
