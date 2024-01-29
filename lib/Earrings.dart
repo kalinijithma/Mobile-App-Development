@@ -110,7 +110,7 @@ class _EarringsState extends State<Earrings> {
                       children: [
                         Image(
                           image: AssetImage("assest/earring2.png"),
-                          alignment: Alignment.topLeft,
+                          alignment: Alignment.center,
                           height: 250,
                           width: 300,
                         ),
@@ -156,7 +156,7 @@ class _EarringsState extends State<Earrings> {
                       children: [
                         Image(
                           image: AssetImage("assest/earring3.png"),
-                          alignment: Alignment.topLeft,
+                          alignment: Alignment.center,
                           height: 250,
                           width: 300,
                         ),

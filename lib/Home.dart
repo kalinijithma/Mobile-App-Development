@@ -154,7 +154,7 @@ class HomePage extends State<Home> {
                     ElevatedButton(
                         onPressed: () {},
                         child: Text(
-                          'Sunglassess',
+                          'Glassess',
                           textAlign: TextAlign.center,
                           style: TextStyle(
                             fontSize: 20,

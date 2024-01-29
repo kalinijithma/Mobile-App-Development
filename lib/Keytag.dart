@@ -60,7 +60,7 @@ class _KeytagState extends State<Keytag> {
                       ),
                     ),
                     child: Column(
-                      mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                      mainAxisAlignment: MainAxisAlignment.center,
                       children: [
                         Image(
                           image: AssetImage("assest/keytag1.jpg"),
@@ -110,7 +110,7 @@ class _KeytagState extends State<Keytag> {
                       children: [
                         Image(
                           image: AssetImage("assest/keytag2.jpg"),
-                          alignment: Alignment.topLeft,
+                          alignment: Alignment.center,
                           height: 250,
                           width: 300,
                         ),
@@ -156,7 +156,7 @@ class _KeytagState extends State<Keytag> {
                       children: [
                         Image(
                           image: AssetImage("assest/keytag3.jpg"),
-                          alignment: Alignment.topLeft,
+                          alignment: Alignment.center,
                           height: 250,
                           width: 300,
                         ),
