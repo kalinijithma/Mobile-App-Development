@@ -49,7 +49,7 @@ class HomePage extends State<Home> {
                   height: 215,
                   width: double.infinity,
                   child: const Image(
-                    image: AssetImage("assest/WELCOME.png"),
+                    image: AssetImage("assest/WELCOME.png",),
                     fit: BoxFit.cover,
                   ),
                 ),
