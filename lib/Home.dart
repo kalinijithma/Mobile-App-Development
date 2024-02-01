@@ -2,6 +2,7 @@ import 'package:elegent/Earrings.dart';
 import 'package:flutter/material.dart';
 import 'package:elegent/Keytag.dart';
 import 'package:elegent/Glasses.dart';
+import 'package:elegent/Neckless.dart';
 
 class Home extends StatefulWidget {
   const Home({super.key});
@@ -59,7 +60,13 @@ class HomePage extends State<Home> {
                   mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                   children: [
                     ElevatedButton(
-                        onPressed: () {},
+                        onPressed: () {
+                          Navigator.push(
+                              context,
+                              MaterialPageRoute(
+                                builder: (context) => Neckless(),
+                              ));
+                        },
                         child: Text(
                           'Neckless',
                           textAlign: TextAlign.center,
