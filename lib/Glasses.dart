@@ -64,7 +64,7 @@ class _GlassesState extends State<Glasses> {
                       children: [
                         Image(
                           image: AssetImage("assest/glass1.jpg"),
-                          alignment: Alignment.topLeft,
+                          alignment: Alignment.center,
                           height: 250,
                           width: 300,
                         ),

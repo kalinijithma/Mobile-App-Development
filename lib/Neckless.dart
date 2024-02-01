@@ -53,7 +53,7 @@ class _NecklessState extends State<Neckless> {
                       // );
                     },
                     style: ElevatedButton.styleFrom(
-                      primary: Colors.white,
+                      primary: Colors.yellow[200],
                       minimumSize: Size(390, 250),
                       shape: RoundedRectangleBorder(
                         borderRadius: BorderRadius.circular(60),
@@ -63,14 +63,14 @@ class _NecklessState extends State<Neckless> {
                       mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                       children: [
                         Image(
-                          image: AssetImage("assest/.jpg"),
-                          alignment: Alignment.topLeft,
+                          image: AssetImage("assest/neckless1.png"),
+                          alignment: Alignment.center,
                           height: 250,
                           width: 300,
                         ),
                         SizedBox(height: 10),
                         Text(
-                          ' ',
+                          'Neckless with yelow butterfly pendent',
                           textAlign: TextAlign.right,
                           style: TextStyle(
                             fontSize: 20,
@@ -99,7 +99,7 @@ class _NecklessState extends State<Neckless> {
                       // );
                     },
                     style: ElevatedButton.styleFrom(
-                      primary: Colors.purple[100],
+                      primary: Colors.red[200],
                       minimumSize: Size(390, 250),
                       shape: RoundedRectangleBorder(
                         borderRadius: BorderRadius.circular(60),
@@ -109,14 +109,14 @@ class _NecklessState extends State<Neckless> {
                       mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                       children: [
                         Image(
-                          image: AssetImage("assest/"),
+                          image: AssetImage("assest/neckless2.png"),
                           alignment: Alignment.center,
                           height: 250,
                           width: 300,
                         ),
                         SizedBox(height: 10),
                         Text(
-                          ' ',
+                          'Neckless with red butterfly pendent',
                           textAlign: TextAlign.right,
                           style: TextStyle(
                             fontSize: 20,
@@ -145,7 +145,7 @@ class _NecklessState extends State<Neckless> {
                       // );
                     },
                     style: ElevatedButton.styleFrom(
-                      primary: Colors.pink[100],
+                      primary: Colors.blue[200],
                       minimumSize: Size(390, 250),
                       shape: RoundedRectangleBorder(
                         borderRadius: BorderRadius.circular(60),
@@ -155,14 +155,14 @@ class _NecklessState extends State<Neckless> {
                       mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                       children: [
                         Image(
-                          image: AssetImage("assest/"),
+                          image: AssetImage("assest/neckless3.png"),
                           alignment: Alignment.center,
                           height: 250,
                           width: 300,
                         ),
                         SizedBox(height: 10),
                         Text(
-                          '5 colour Butterfly Earring set LKR.750',
+                          'Neckless with blue butterfly pendent',
                           textAlign: TextAlign.right,
                           style: TextStyle(
                             fontSize: 20,
@@ -191,7 +191,7 @@ class _NecklessState extends State<Neckless> {
                       // );
                     },
                     style: ElevatedButton.styleFrom(
-                      primary: Colors.green[100],
+                      primary: Colors.purple[200],
                       minimumSize: Size(390, 250),
                       shape: RoundedRectangleBorder(
                         borderRadius: BorderRadius.circular(60),
@@ -201,14 +201,14 @@ class _NecklessState extends State<Neckless> {
                       mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                       children: [
                         Image(
-                          image: AssetImage("assest/"),
+                          image: AssetImage("assest/neckless4.png"),
                           alignment: Alignment.center,
                           height: 250,
                           width: 300,
                         ),
                         SizedBox(height: 10),
                         Text(
-                          ' ',
+                          'Neckless with purple butterfly pendent',
                           textAlign: TextAlign.right,
                           style: TextStyle(
                             fontSize: 20,
@@ -237,7 +237,7 @@ class _NecklessState extends State<Neckless> {
                       // );
                     },
                     style: ElevatedButton.styleFrom(
-                      primary: Colors.blue[100],
+                      primary: Colors.black,
                       minimumSize: Size(390, 250),
                       shape: RoundedRectangleBorder(
                         borderRadius: BorderRadius.circular(60),
@@ -247,19 +247,19 @@ class _NecklessState extends State<Neckless> {
                       mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                       children: [
                         Image(
-                          image: AssetImage("assest/"),
+                          image: AssetImage("assest/neckless5.png"),
                           alignment: Alignment.center,
                           height: 250,
                           width: 300,
                         ),
                         SizedBox(height: 10),
                         Text(
-                          ' ',
+                          'Neckless with black butterfly pendent',
                           textAlign: TextAlign.right,
                           style: TextStyle(
                             fontSize: 20,
                             fontWeight: FontWeight.w500,
-                            color: Colors.black,
+                            color: Colors.white,
                           ),
                         ),
                       ],
