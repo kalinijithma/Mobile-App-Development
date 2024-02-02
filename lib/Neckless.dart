@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:elegent/main.dart';
+import 'package:elegent/Viewdetails.dart';
 
 class Neckless extends StatefulWidget {
   const Neckless({super.key});
@@ -46,11 +47,11 @@ class _NecklessState extends State<Neckless> {
                 children: [
                   ElevatedButton(
                     onPressed: () {
-                      // String itemName = 'Neckless'; // Data you want to pass
-                      // Navigator.push(
-                      //   context,
-                      //   MaterialPageRoute(builder: (context) => NextPage(itemName)),
-                      // );
+                      Navigator.push(
+                              context,
+                              MaterialPageRoute(
+                                builder: (context) => Viewdetails(),
+                              ));
                     },
                     style: ElevatedButton.styleFrom(
                       primary: Colors.yellow[200],
@@ -208,7 +209,7 @@ class _NecklessState extends State<Neckless> {
                         ),
                         SizedBox(height: 10),
                         Text(
-                          'Neckless with purple butterfly pendent',
+                          'Neckless with puple butterfly pendent',
                           textAlign: TextAlign.right,
                           style: TextStyle(
                             fontSize: 20,
