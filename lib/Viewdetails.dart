@@ -45,15 +45,19 @@ class _ViewdetailsState extends State<Viewdetails> {
             ),
           ),
           SizedBox(height: 20),
+
           Container(
             height: 215,
             width: double.infinity,
-            child: const Image(
-              image: AssetImage(
-                "assest/WELCOME.png",
-              ),
-              fit: BoxFit.cover,
-            ),
+            child:Text(
+                    'fhsjdfh hudwihduwi uhdiwhdi udehwdu gudewihd hduewihdu huefwhduwdh',
+                    textAlign: TextAlign.center,
+                    style: TextStyle(
+                      fontSize: 20,
+                      fontWeight: FontWeight.w500,
+                      color: Colors.black,
+                    ),
+                  ),
           ),
           SizedBox(height: 20),
           Row(
