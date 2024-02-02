@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:elegent/main.dart';
+import 'package:elegent/Viewdetails.dart';
 
 class Earrings extends StatefulWidget {
   const Earrings({super.key});
@@ -39,18 +40,16 @@ class _EarringsState extends State<Earrings> {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.spaceEvenly,
             children: [
-
-
               Row(
                 mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                 children: [
                   ElevatedButton(
                     onPressed: () {
-                      // String itemName = 'Neckless'; // Data you want to pass
-                      // Navigator.push(
-                      //   context,
-                      //   MaterialPageRoute(builder: (context) => NextPage(itemName)),
-                      // );
+                      Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                            builder: (context) => Viewdetails(),
+                          ));
                     },
                     style: ElevatedButton.styleFrom(
                       primary: Colors.yellow[200],
@@ -86,17 +85,16 @@ class _EarringsState extends State<Earrings> {
 
               SizedBox(height: 20), // Adding space between rows
 
-
               Row(
                 mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                 children: [
                   ElevatedButton(
                     onPressed: () {
-                      // String itemName = 'Neckless'; // Data you want to pass
-                      // Navigator.push(
-                      //   context,
-                      //   MaterialPageRoute(builder: (context) => NextPage(itemName)),
-                      // );
+                      Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                            builder: (context) => Viewdetails(),
+                          ));
                     },
                     style: ElevatedButton.styleFrom(
                       primary: Colors.green[100],
@@ -132,17 +130,16 @@ class _EarringsState extends State<Earrings> {
 
               SizedBox(height: 20), // Adding space between rows
 
-
               Row(
                 mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                 children: [
                   ElevatedButton(
                     onPressed: () {
-                      // String itemName = 'Neckless'; // Data you want to pass
-                      // Navigator.push(
-                      //   context,
-                      //   MaterialPageRoute(builder: (context) => NextPage(itemName)),
-                      // );
+                      Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                            builder: (context) => Viewdetails(),
+                          ));
                     },
                     style: ElevatedButton.styleFrom(
                       primary: Colors.blue[100],
@@ -177,18 +174,18 @@ class _EarringsState extends State<Earrings> {
               ),
 
               SizedBox(height: 20),
-              
-               // Adding space between rows
+
+              // Adding space between rows
               Row(
                 mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                 children: [
                   ElevatedButton(
                     onPressed: () {
-                      // String itemName = 'Neckless'; // Data you want to pass
-                      // Navigator.push(
-                      //   context,
-                      //   MaterialPageRoute(builder: (context) => NextPage(itemName)),
-                      // );
+                      Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                            builder: (context) => Viewdetails(),
+                          ));
                     },
                     style: ElevatedButton.styleFrom(
                       primary: Colors.purple[100],
@@ -223,18 +220,18 @@ class _EarringsState extends State<Earrings> {
               ),
 
               SizedBox(height: 20),
-              
-               // Adding space between rows
+
+              // Adding space between rows
               Row(
                 mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                 children: [
                   ElevatedButton(
                     onPressed: () {
-                      // String itemName = 'Neckless'; // Data you want to pass
-                      // Navigator.push(
-                      //   context,
-                      //   MaterialPageRoute(builder: (context) => NextPage(itemName)),
-                      // );
+                      Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                            builder: (context) => Viewdetails(),
+                          ));
                     },
                     style: ElevatedButton.styleFrom(
                       primary: Colors.pink[100],
