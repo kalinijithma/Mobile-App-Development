@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:elegent/main.dart';
+import 'package:elegent/Viewdetails.dart';
 
 class Glasses extends StatefulWidget {
   const Glasses({super.key});
