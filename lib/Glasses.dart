@@ -45,11 +45,11 @@ class _GlassesState extends State<Glasses> {
                 children: [
                   ElevatedButton(
                     onPressed: () {
-                      // String itemName = 'Neckless'; // Data you want to pass
-                      // Navigator.push(
-                      //   context,
-                      //   MaterialPageRoute(builder: (context) => NextPage(itemName)),
-                      // );
+                     Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                            builder: (context) => Viewdetails(),
+                          ));
                     },
                     style: ElevatedButton.styleFrom(
                       primary: Colors.white,
@@ -90,11 +90,11 @@ class _GlassesState extends State<Glasses> {
                 children: [
                   ElevatedButton(
                     onPressed: () {
-                      // String itemName = 'Neckless'; // Data you want to pass
-                      // Navigator.push(
-                      //   context,
-                      //   MaterialPageRoute(builder: (context) => NextPage(itemName)),
-                      // );
+                      Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                            builder: (context) => Viewdetails(),
+                          ));
                     },
                     style: ElevatedButton.styleFrom(
                       primary: Colors.purple[100],
@@ -135,11 +135,11 @@ class _GlassesState extends State<Glasses> {
                 children: [
                   ElevatedButton(
                     onPressed: () {
-                      // String itemName = 'Neckless'; // Data you want to pass
-                      // Navigator.push(
-                      //   context,
-                      //   MaterialPageRoute(builder: (context) => NextPage(itemName)),
-                      // );
+                     Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                            builder: (context) => Viewdetails(),
+                          ));
                     },
                     style: ElevatedButton.styleFrom(
                       primary: Colors.pink[100],
@@ -181,11 +181,11 @@ class _GlassesState extends State<Glasses> {
                 children: [
                   ElevatedButton(
                     onPressed: () {
-                      // String itemName = 'Neckless'; // Data you want to pass
-                      // Navigator.push(
-                      //   context,
-                      //   MaterialPageRoute(builder: (context) => NextPage(itemName)),
-                      // );
+                      Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                            builder: (context) => Viewdetails(),
+                          ));
                     },
                     style: ElevatedButton.styleFrom(
                       primary: Colors.green[100],
@@ -227,11 +227,11 @@ class _GlassesState extends State<Glasses> {
                 children: [
                   ElevatedButton(
                     onPressed: () {
-                      // String itemName = 'Neckless'; // Data you want to pass
-                      // Navigator.push(
-                      //   context,
-                      //   MaterialPageRoute(builder: (context) => NextPage(itemName)),
-                      // );
+                      Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                            builder: (context) => Viewdetails(),
+                          ));
                     },
                     style: ElevatedButton.styleFrom(
                       primary: Colors.blue[100],
