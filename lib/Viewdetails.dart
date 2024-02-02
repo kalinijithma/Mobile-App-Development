@@ -59,7 +59,7 @@ class _ViewdetailsState extends State<Viewdetails> {
               textAlign: TextAlign.center,
               style: TextStyle(
                 fontSize: 20,
-                fontWeight: FontWeight.w500,
+                fontWeight: FontWeight.w400,
                 color: Colors.black,
               ),
             ),
