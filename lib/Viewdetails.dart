@@ -50,7 +50,7 @@ class _ViewdetailsState extends State<Viewdetails> {
             height: 215,
             width: double.infinity,
             child:Text(
-                    'fhsjdfh hudwihduwi uhdiwhdi udehwdu gudewihd hduewihdu huefwhduwdh',
+                    'fhsjdfh hudwihduwi uhdiwhdi udehwdu gudewihd hduewihdu huefwhduwdh hfdhfwcf ehudhwe gdu23d72ed27d gd2gdu23hwd uedhdiwid udewhduywdu',
                     textAlign: TextAlign.center,
                     style: TextStyle(
                       fontSize: 20,
@@ -66,7 +66,7 @@ class _ViewdetailsState extends State<Viewdetails> {
               ElevatedButton(
                   onPressed: () {},
                   child: Text(
-                    'Buy Now',
+                    'Add to Cart',
                     textAlign: TextAlign.center,
                     style: TextStyle(
                       fontSize: 20,
