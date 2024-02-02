@@ -45,19 +45,24 @@ class _ViewdetailsState extends State<Viewdetails> {
             ),
           ),
           SizedBox(height: 20),
-
           Container(
-            height: 215,
+            height: 300,
             width: double.infinity,
-            child:Text(
-                    'fhsjdfh hudwihduwi uhdiwhdi udehwdu gudewihd hduewihdu huefwhduwdh hfdhfwcf ehudhwe gdu23d72ed27d gd2gdu23hwd uedhdiwid udewhduywdu',
-                    textAlign: TextAlign.center,
-                    style: TextStyle(
-                      fontSize: 20,
-                      fontWeight: FontWeight.w500,
-                      color: Colors.black,
-                    ),
-                  ),
+            child: Text(
+              'Product introduction\n'
+              'Brand：VITICEN\n'
+              'Pendant Design：Heart\n'
+              'Pendant Material：24K gold\n'
+              'Necklace Material：18K Gold Or 925 Silver\n'
+              'Necklace Length： About 45 cm\n'
+              'Necklace length can be customized',
+              textAlign: TextAlign.center,
+              style: TextStyle(
+                fontSize: 20,
+                fontWeight: FontWeight.w500,
+                color: Colors.black,
+              ),
+            ),
           ),
           SizedBox(height: 20),
           Row(
