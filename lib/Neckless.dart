@@ -90,7 +90,11 @@ class _NecklessState extends State<Neckless> {
                 children: [
                   ElevatedButton(
                     onPressed: () {
-
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                            builder: (context) => Viewdetails(),
+                          ));
                     },
                     style: ElevatedButton.styleFrom(
                       primary: Colors.red[200],
@@ -131,11 +135,11 @@ class _NecklessState extends State<Neckless> {
                 children: [
                   ElevatedButton(
                     onPressed: () {
-                      // String itemName = 'Neckless'; // Data you want to pass
-                      // Navigator.push(
-                      //   context,
-                      //   MaterialPageRoute(builder: (context) => NextPage(itemName)),
-                      // );
+                      Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                            builder: (context) => Viewdetails(),
+                          ));
                     },
                     style: ElevatedButton.styleFrom(
                       primary: Colors.blue[200],
@@ -177,11 +181,11 @@ class _NecklessState extends State<Neckless> {
                 children: [
                   ElevatedButton(
                     onPressed: () {
-                      // String itemName = 'Neckless'; // Data you want to pass
-                      // Navigator.push(
-                      //   context,
-                      //   MaterialPageRoute(builder: (context) => NextPage(itemName)),
-                      // );
+                      Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                            builder: (context) => Viewdetails(),
+                          ));
                     },
                     style: ElevatedButton.styleFrom(
                       primary: Colors.purple[200],
@@ -223,11 +227,11 @@ class _NecklessState extends State<Neckless> {
                 children: [
                   ElevatedButton(
                     onPressed: () {
-                      // String itemName = 'Neckless'; // Data you want to pass
-                      // Navigator.push(
-                      //   context,
-                      //   MaterialPageRoute(builder: (context) => NextPage(itemName)),
-                      // );
+                      Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                            builder: (context) => Viewdetails(),
+                          ));
                     },
                     style: ElevatedButton.styleFrom(
                       primary: Colors.black,
