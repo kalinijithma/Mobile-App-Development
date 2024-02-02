@@ -39,8 +39,6 @@ class _KeytagState extends State<Keytag> {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.spaceEvenly,
             children: [
-
-
               Row(
                 mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                 children: [
@@ -85,7 +83,6 @@ class _KeytagState extends State<Keytag> {
               ),
 
               SizedBox(height: 20), // Adding space between rows
-
 
               Row(
                 mainAxisAlignment: MainAxisAlignment.spaceEvenly,
@@ -132,7 +129,6 @@ class _KeytagState extends State<Keytag> {
 
               SizedBox(height: 20), // Adding space between rows
 
-
               Row(
                 mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                 children: [
@@ -177,8 +173,8 @@ class _KeytagState extends State<Keytag> {
               ),
 
               SizedBox(height: 20),
-              
-               // Adding space between rows
+
+              // Adding space between rows
               Row(
                 mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                 children: [
@@ -221,7 +217,7 @@ class _KeytagState extends State<Keytag> {
                   ),
                 ],
               ),
-                ],
+            ],
           ),
         ));
   }

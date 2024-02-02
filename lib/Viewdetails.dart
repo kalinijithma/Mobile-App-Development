@@ -44,9 +44,7 @@ class _ViewdetailsState extends State<Viewdetails> {
               fit: BoxFit.cover,
             ),
           ),
-
           SizedBox(height: 20),
-
           Container(
             height: 215,
             width: double.infinity,

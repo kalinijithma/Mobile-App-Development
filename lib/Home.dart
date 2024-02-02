@@ -42,7 +42,6 @@ class HomePage extends State<Home> {
         //body:const Icon(Icons.add),
         //Image.asset("assest/WELCOME.png"),
         body: SingleChildScrollView(
-          
           child: Column(
               mainAxisAlignment: MainAxisAlignment.spaceAround,
               children: [
@@ -50,11 +49,12 @@ class HomePage extends State<Home> {
                   height: 215,
                   width: double.infinity,
                   child: const Image(
-                    image: AssetImage("assest/WELCOME.png",),
+                    image: AssetImage(
+                      "assest/WELCOME.png",
+                    ),
                     fit: BoxFit.cover,
                   ),
                 ),
-                
                 SizedBox(height: 20),
                 Row(
                   mainAxisAlignment: MainAxisAlignment.spaceEvenly,
@@ -161,7 +161,7 @@ class HomePage extends State<Home> {
                             minimumSize: Size(170, 130))),
                     ElevatedButton(
                         onPressed: () {
-                           Navigator.push(
+                          Navigator.push(
                               context,
                               MaterialPageRoute(
                                 builder: (context) => Glasses(),

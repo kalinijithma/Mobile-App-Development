@@ -39,8 +39,6 @@ class _GlassesState extends State<Glasses> {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.spaceEvenly,
             children: [
-
-
               Row(
                 mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                 children: [
@@ -85,7 +83,6 @@ class _GlassesState extends State<Glasses> {
               ),
 
               SizedBox(height: 20), // Adding space between rows
-
 
               Row(
                 mainAxisAlignment: MainAxisAlignment.spaceEvenly,
@@ -132,7 +129,6 @@ class _GlassesState extends State<Glasses> {
 
               SizedBox(height: 20), // Adding space between rows
 
-
               Row(
                 mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                 children: [
@@ -177,8 +173,8 @@ class _GlassesState extends State<Glasses> {
               ),
 
               SizedBox(height: 20),
-              
-               // Adding space between rows
+
+              // Adding space between rows
               Row(
                 mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                 children: [
@@ -223,8 +219,8 @@ class _GlassesState extends State<Glasses> {
               ),
 
               SizedBox(height: 20),
-              
-               // Adding space between rows
+
+              // Adding space between rows
               Row(
                 mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                 children: [

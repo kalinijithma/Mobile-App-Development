@@ -40,18 +40,16 @@ class _NecklessState extends State<Neckless> {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.spaceEvenly,
             children: [
-
-
               Row(
                 mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                 children: [
                   ElevatedButton(
                     onPressed: () {
                       Navigator.push(
-                              context,
-                              MaterialPageRoute(
-                                builder: (context) => Viewdetails(),
-                              ));
+                          context,
+                          MaterialPageRoute(
+                            builder: (context) => Viewdetails(),
+                          ));
                     },
                     style: ElevatedButton.styleFrom(
                       primary: Colors.yellow[200],
@@ -87,17 +85,12 @@ class _NecklessState extends State<Neckless> {
 
               SizedBox(height: 20), // Adding space between rows
 
-
               Row(
                 mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                 children: [
                   ElevatedButton(
                     onPressed: () {
-                      // String itemName = 'Neckless'; // Data you want to pass
-                      // Navigator.push(
-                      //   context,
-                      //   MaterialPageRoute(builder: (context) => NextPage(itemName)),
-                      // );
+
                     },
                     style: ElevatedButton.styleFrom(
                       primary: Colors.red[200],
@@ -132,7 +125,6 @@ class _NecklessState extends State<Neckless> {
               ),
 
               SizedBox(height: 20), // Adding space between rows
-
 
               Row(
                 mainAxisAlignment: MainAxisAlignment.spaceEvenly,
@@ -178,8 +170,8 @@ class _NecklessState extends State<Neckless> {
               ),
 
               SizedBox(height: 20),
-              
-               // Adding space between rows
+
+              // Adding space between rows
               Row(
                 mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                 children: [
@@ -224,8 +216,8 @@ class _NecklessState extends State<Neckless> {
               ),
 
               SizedBox(height: 20),
-              
-               // Adding space between rows
+
+              // Adding space between rows
               Row(
                 mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                 children: [
